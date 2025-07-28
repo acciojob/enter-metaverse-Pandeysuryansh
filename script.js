@@ -1,7 +1,8 @@
 //your JS code here. If required.
-const statuspara = document.getElementById('status');
-const btn = document.getElementById('eneterBtn');
+const statusParagraph = document.getElementById('status');
+const enterButton = document.getElementById('enterBtn');
 
-enterButton.addEventListener('click',() => {
-      statuspara.outerHTML = '<h1 id="status">Entered Metaverse</h1>';
+enterButton.addEventListener('click', () => {
+	
+	statusParagraph.outerHTML = '<h1 id="status">Entered Metaverse</h1>';
 });
